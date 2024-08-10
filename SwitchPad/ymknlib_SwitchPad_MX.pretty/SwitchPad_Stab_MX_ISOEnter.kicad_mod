@@ -1,12 +1,12 @@
-(footprint "SwitchPad_Stab_MX_ISO" (version 20221018) (generator pcbnew)
+(footprint "SwitchPad_Stab_MX_ISOEnter" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Footprint for Cherry Clip/Screw in type stabilizers, ISO Enter")
+  (descr "Footprint for Cherry Clip/Screw in type stabilizers, ISOEnter Enter")
   (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 0 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e34c7c6c-ea4b-4049-8efe-9208ba4cdfec)
   )
-  (fp_text value "SwitchPad_Stab_MX_ISO" (at 0 8.128 180) (layer "Cmts.User") hide
+  (fp_text value "SwitchPad_Stab_MX_ISOEnter" (at 0 8.128 180) (layer "Cmts.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 15283b22-fab8-4374-8489-3369380dc1e1)
   )
