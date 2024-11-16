@@ -45,6 +45,7 @@ Footprints for laser cutting switch pads. Designed for MX switches.
 |SwitchPad_Stab_MX_2.25u|for 2.25u|
 |SwitchPad_Stab_MX_2.75u|for 2.75u|
 |SwitchPad_Stab_MX_3.0u|for 3.0u|
+|SwitchPad_Stab_MX_3.0u|for 7.0u|
 |SwitchPad_Stab_MX_ISO|for ISOEnter|
 
 ## License
