@@ -3,4 +3,5 @@
   (lib (name "ymknlib_Various")(type "KiCad")(uri "${KIPRJMOD}/Various/ymknlib_Various.pretty")(options "")(descr ""))
   (lib (name "ymknlib_Waveshare_RP2040-Zero")(type "KiCad")(uri "${KIPRJMOD}/MCU/ymknlib_Waveshare_RP2040-Zero.pretty")(options "")(descr ""))
   (lib (name "ymknlib_SwitchPad_MX")(type "KiCad")(uri "${KIPRJMOD}/SwitchPad/ymknlib_SwitchPad_MX.pretty")(options "")(descr ""))
+  (lib (name "ymknlib_SwitchFoam_MX")(type "KiCad")(uri "${KIPRJMOD}/SwitchFoam/ymknlib_SwitchFoam_MX.pretty")(options "")(descr ""))
 )

@@ -26,6 +26,18 @@ For RP2040-Zero and RP2040-Tiny boards by [Waveshare](https://www.waveshare.com/
 |Waveshare_RP2040-Zero_THT|Through-hole pads for Zero and Tiny's mainboard|
 |Waveshare_RP2040-Zero_THT_CO|with cutuot ver.|
 
+### SwitchFoam
+
+#### ymknlib_SwitchFoam_MX
+
+Footprints for laser cutting switch foams. Designed for MX switches.
+
+##### Footprints
+
+|Name|Description|
+|---|---|
+|SwitchFoam_MX_1.0u|Hole of 1.0u MX-compatible key switches.|
+
 ### SwitchPad
 
 #### ymknlib_SwitchPad_MX
