@@ -615,7 +615,7 @@
 	)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 		(offset
-			(xyz -5 -3.75 1.2)
+			(xyz -5 -3.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
