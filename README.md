@@ -26,6 +26,38 @@ For RP2040-Zero and RP2040-Tiny boards by [Waveshare](https://www.waveshare.com/
 |Waveshare_RP2040-Zero_THT|Through-hole pads for Zero and Tiny's mainboard|
 |Waveshare_RP2040-Zero_THT_CO|with cutuot ver.|
 
+### Switch
+
+#### ymknlib_Switch_ChocV2
+
+Footprints for Kailh Choc V2 switches. Supports the 5-pin type (known for Lofree Flow. Does not support the earlier 6-pin type)
+
+##### Footprints
+
+|Name|Description|
+|---|---|
+|Plate_MP_Choc_v2_1u|for keyswitches on switchplate|
+|STAB_choc_2u_Plate|for stabilizers on switchplate|
+|STAB_choc_2u|for stablizers on PCB |
+|SW_choc_v2_1.5u|for 1.5u keyswitches on PCB|
+|SW_choc_v2_1.25u|for 1.25u keyswitches on PCB|
+|SW_choc_v2_1.75u|for 1.75u keyswitches on PCB|
+|SW_choc_v2_1u|for 1u keyswitches on PCB|
+
+#### ymknlib_Switch_MX_GLP3
+
+Footprints for Gateron Low-Profile 3.0 switches and Full-Profile MX switches. 
+
+##### Footprints
+
+|Name|Description|
+|---|---|
+|Plate_MP_MX_GLP3_1u|for keyswitches on switchplate|
+|SW_MX_GLP3_1.5u|for 1.5u keyswitches on PCB|
+|SW_MX_GLP3_1.25u|for 1.25u keyswitches on PCB|
+|SW_MX_GLP3_1.75u|for 1.75u keyswitches on PCB|
+|SW_MX_GLP3_1u|for 1u keyswitches on PCB|
+
 ### SwitchFoam
 
 #### ymknlib_SwitchFoam_MX
