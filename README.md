@@ -46,17 +46,23 @@ Footprints for Kailh Choc V2 switches. Supports the 5-pin type (known for Lofree
 
 #### ymknlib_Switch_MX_GLP3
 
-Footprints for Gateron Low-Profile 3.0 switches and Full-Profile MX switches. 
+Footprints for Gateron Low-Profile 3.0 switches (containing "MX" in their names are compatible with MX switches). 
 
 ##### Footprints
 
 |Name|Description|
 |---|---|
-|Plate_MP_MX_GLP3_1u|for keyswitches on switchplate|
-|SW_MX_GLP3_1.5u|for 1.5u keyswitches on PCB|
-|SW_MX_GLP3_1.25u|for 1.25u keyswitches on PCB|
-|SW_MX_GLP3_1.75u|for 1.75u keyswitches on PCB|
-|SW_MX_GLP3_1u|for 1u keyswitches on PCB|
+|PlateHole_PlateStab_GLP3_2.25u|Mounting holes for Gateron Low Profile Plate Mounted Stabilizer with a 2.25u placeholder for switch plates|
+|PlateHole_PlateStab_GLP3_2.75u|for 2.75u|
+|PlateHole_PlateStab_GLP3_2u|for 2.0u|
+|PlateHole_SW_MX_GLP3_1u|Mounting holes for Gateron Low Profile 3.0 switches for switch plates|
+|PlateStab_GLP3_2.25u|Through holes for Gateron Low Profile Plate Mounted Stabilizer with a 2.25u placeholder for PCB|
+|PlateStab_GLP3_2.75u|for 2.75u|
+|PlateStab_GLP3_2u|for 2.0u|
+|SW_MX_GLP3_1.5u|Footprint for Gateron Low Profile 3.0 switches with a 1.5u placeholder for PCB|
+|SW_MX_GLP3_1.25u|for 1.25u|
+|SW_MX_GLP3_1.75u|for 1.75u|
+|SW_MX_GLP3_1u|for 1u|
 
 ### SwitchFoam
 

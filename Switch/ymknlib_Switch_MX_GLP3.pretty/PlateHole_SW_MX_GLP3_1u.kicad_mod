@@ -1,0 +1,192 @@
+(footprint "PlateHole_SW_MX_GLP3_1u"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0c38ee08-10e0-408b-a4c8-4185037658da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PlateHole_SW_MX_GLP3_1u"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16f9f8ac-1f83-4dda-a3fd-02b25318cad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "341e21f8-6163-4077-a9ac-02597e1f9607")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4645ecd-88b6-4540-906c-c9994deecdfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b167336-a4a8-43f2-8ff6-e32c6ce42532")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "9b5c79e8-197e-4a82-9b53-d220566cd473")
+	)
+	(fp_line
+		(start -7.125 6.625)
+		(end -7.125 -6.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "27fd50f5-5cb3-4e0d-832a-9ec2d1bc6d2f")
+	)
+	(fp_line
+		(start -6.625 -7.125)
+		(end 6.625 -7.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eb7d494e-b38a-4cf9-9fa2-f6d4055a434d")
+	)
+	(fp_line
+		(start 6.625 7.125)
+		(end -6.625 7.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2c6906bb-c26b-42fb-9143-5e8de9191e71")
+	)
+	(fp_line
+		(start 7.125 -6.625)
+		(end 7.125 6.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "804e4cd7-cc53-447c-96e5-294ff520b332")
+	)
+	(fp_arc
+		(start -7.125 -6.625)
+		(mid -6.978553 -6.978553)
+		(end -6.625 -7.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7973e4f5-29ec-461e-8e42-432143b9e40a")
+	)
+	(fp_arc
+		(start -6.625 7.125)
+		(mid -6.978553 6.978553)
+		(end -7.125 6.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6e7d22d6-7996-444f-a92e-7e1763884c02")
+	)
+	(fp_arc
+		(start 6.625 -7.125)
+		(mid 6.978553 -6.978553)
+		(end 7.125 -6.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e263f616-fedf-4006-91cb-37fc3e55aef9")
+	)
+	(fp_arc
+		(start 7.125 6.625)
+		(mid 6.978553 6.978553)
+		(end 6.625 7.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0d335719-36d1-4ee2-8ef3-304679a3cbb8")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "Edge.Cuts")
+		(uuid "6aa8a0b1-8f85-4b6a-8d54-7621eb9ed9e1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.625 -7.625) (xy -7.625 7.625) (xy 7.630614 7.625) (xy 7.625 -7.625)
+			)
+		)
+	)
+)
