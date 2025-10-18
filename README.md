@@ -59,6 +59,7 @@ Footprints for Gateron Low-Profile 3.0 switches (containing "MX" in their names 
 |PlateStab_GLP3_2.25u|Through holes for Gateron Low Profile Plate Mounted Stabilizer with a 2.25u placeholder for PCB|
 |PlateStab_GLP3_2.75u|for 2.75u|
 |PlateStab_GLP3_2u|for 2.0u|
+|PlateStab_GLP3_ISOEnter|for ISOEnter|
 |SW_MX_GLP3_1.5u|Footprint for Gateron Low Profile 3.0 switches with a 1.5u placeholder for PCB|
 |SW_MX_GLP3_1.25u|for 1.25u|
 |SW_MX_GLP3_1.75u|for 1.75u|

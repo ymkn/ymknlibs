@@ -5,4 +5,5 @@
   (lib (name "ymknlib_SwitchPad_MX")(type "KiCad")(uri "${KIPRJMOD}/SwitchPad/ymknlib_SwitchPad_MX.pretty")(options "")(descr ""))
   (lib (name "ymknlib_SwitchFoam_MX")(type "KiCad")(uri "${KIPRJMOD}/SwitchFoam/ymknlib_SwitchFoam_MX.pretty")(options "")(descr ""))
   (lib (name "ymknlib_Switch_ChocV2")(type "KiCad")(uri "${KIPRJMOD}/Switch/ymknlib_Switch_ChocV2.pretty")(options "")(descr ""))
+  (lib (name "ymknlib_Switch_MX_GLP3")(type "KiCad")(uri "${KIPRJMOD}/Switch/ymknlib_Switch_MX_GLP3.pretty")(options "")(descr ""))
 )
