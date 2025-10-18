@@ -205,8 +205,8 @@
 		(uuid "16aa69c5-5c80-4cf9-b0f0-858da0ab3cc2")
 	)
 	(fp_line
-		(start -10.625 -9.4)
-		(end -10.625 -14.6)
+		(start -10.125 -9.4)
+		(end -10.125 -14.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -215,8 +215,8 @@
 		(uuid "9aded0f7-d3f3-46c5-94ad-2ad46adc06e0")
 	)
 	(fp_line
-		(start -10.625 9.4)
-		(end -10.625 14.6)
+		(start -10.125 9.4)
+		(end -10.125 14.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -225,8 +225,8 @@
 		(uuid "9bfc1cac-c940-4e86-af60-7b8e7ed5f7e1")
 	)
 	(fp_line
-		(start -10.125 -15.1)
-		(end 4.575 -15.1)
+		(start -9.625 -15.1)
+		(end 5.075 -15.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -235,8 +235,8 @@
 		(uuid "d51263c7-27f9-4016-9541-3bef57ac236d")
 	)
 	(fp_line
-		(start -10.125 15.1)
-		(end 4.575 15.1)
+		(start -9.625 15.1)
+		(end 5.075 15.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -245,8 +245,8 @@
 		(uuid "090a631d-952a-4d58-b1f4-455bd21a3ec2")
 	)
 	(fp_line
-		(start 4.575 -8.9)
-		(end -10.125 -8.9)
+		(start 5.075 -8.9)
+		(end -9.625 -8.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -255,8 +255,8 @@
 		(uuid "f5f93fff-700c-4e85-8cfa-0a6eceec6e72")
 	)
 	(fp_line
-		(start 4.575 8.9)
-		(end -10.125 8.9)
+		(start 5.075 8.9)
+		(end -9.625 8.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -265,8 +265,8 @@
 		(uuid "72572014-9b68-419f-bec5-7347b0dfcb59")
 	)
 	(fp_line
-		(start 5.075 -14.6)
-		(end 5.075 -9.4)
+		(start 5.575 -14.6)
+		(end 5.575 -9.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -275,8 +275,8 @@
 		(uuid "5960028e-3bb1-445a-849d-5d212c5ebc6a")
 	)
 	(fp_line
-		(start 5.075 14.6)
-		(end 5.075 9.4)
+		(start 5.575 14.6)
+		(end 5.575 9.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -285,9 +285,9 @@
 		(uuid "bfd3679a-4d13-4b77-ab58-aa98cc13f5e3")
 	)
 	(fp_arc
-		(start -10.625 -14.6)
-		(mid -10.478553 -14.953553)
-		(end -10.125 -15.1)
+		(start -10.125 -14.6)
+		(mid -9.978553 -14.953553)
+		(end -9.625 -15.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -296,9 +296,9 @@
 		(uuid "9ce7692a-7ef5-43cf-b902-7d1d130f7701")
 	)
 	(fp_arc
-		(start -10.625 9.4)
-		(mid -10.478553 9.046447)
-		(end -10.125 8.9)
+		(start -10.125 9.4)
+		(mid -9.978553 9.046447)
+		(end -9.625 8.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -307,9 +307,9 @@
 		(uuid "71d4b57f-bb9c-4c79-a558-b198e831a8ea")
 	)
 	(fp_arc
-		(start -10.125 -8.9)
-		(mid -10.478553 -9.046447)
-		(end -10.625 -9.4)
+		(start -9.625 -8.9)
+		(mid -9.978553 -9.046447)
+		(end -10.125 -9.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -318,9 +318,9 @@
 		(uuid "f28852cd-4c2f-4d52-a9d5-1507ceb4fc0d")
 	)
 	(fp_arc
-		(start -10.125 15.1)
-		(mid -10.478553 14.953553)
-		(end -10.625 14.6)
+		(start -9.625 15.1)
+		(mid -9.978553 14.953553)
+		(end -10.125 14.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -329,9 +329,9 @@
 		(uuid "50b2371c-d169-48ed-a6e5-44499ba3dcbd")
 	)
 	(fp_arc
-		(start 4.575 -15.1)
-		(mid 4.928553 -14.953553)
-		(end 5.075 -14.6)
+		(start 5.075 -15.1)
+		(mid 5.428553 -14.953553)
+		(end 5.575 -14.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -340,9 +340,9 @@
 		(uuid "b4a8d77f-3a25-4fb2-a8c1-9d1b6d43c203")
 	)
 	(fp_arc
-		(start 4.575 8.9)
-		(mid 4.928553 9.046447)
-		(end 5.075 9.4)
+		(start 5.075 8.9)
+		(mid 5.428553 9.046447)
+		(end 5.575 9.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -351,9 +351,9 @@
 		(uuid "194f47e5-1cdc-4b17-ad63-dfa261b2f892")
 	)
 	(fp_arc
-		(start 5.075 -9.4)
-		(mid 4.928553 -9.046447)
-		(end 4.575 -8.9)
+		(start 5.575 -9.4)
+		(mid 5.428553 -9.046447)
+		(end 5.075 -8.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -362,9 +362,9 @@
 		(uuid "83fbaa61-43e0-44c4-a5e0-ce80639f5d3b")
 	)
 	(fp_arc
-		(start 5.075 14.6)
-		(mid 4.928553 14.953553)
-		(end 4.575 15.1)
+		(start 5.575 14.6)
+		(mid 5.428553 14.953553)
+		(end 5.075 15.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -396,7 +396,7 @@
 		)
 		(polygon
 			(pts
-				(xy -11.125 15.6) (xy 5.575 15.6) (xy 5.575 8.4) (xy -11.125 8.4)
+				(xy -10.625 15.6) (xy 6.075 15.6) (xy 6.075 8.4) (xy -10.625 8.4)
 			)
 		)
 	)
@@ -424,7 +424,7 @@
 		)
 		(polygon
 			(pts
-				(xy -11.125 -8.4) (xy 5.575 -8.4) (xy 5.575 -15.6) (xy 4.475 -15.6) (xy -11.125 -15.6)
+				(xy -10.625 -8.4) (xy 6.075 -8.4) (xy 6.075 -15.6) (xy 4.975 -15.6) (xy -10.625 -15.6)
 			)
 		)
 	)
