@@ -1,7 +1,7 @@
 (footprint "MountingHole_M2_TrayMount_NPTH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 3.2mm, no annular, M3")
 	(tags "mounting hole 3.2mm no annular m3")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4bdf12f2-ce57-49bd-95e9-e796839d9f81")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -69,45 +56,103 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_circle
-		(center 0 0)
-		(end 3.2 0)
+	(fp_line
+		(start -1.275 -1.45)
+		(end 1.275 -1.45)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
 		(layer "Cmts.User")
-		(uuid "8baede52-c088-4b1d-9d27-aeca543abbe1")
+		(uuid "a0d41dac-d7f8-4dcf-bcf0-3949eec4894b")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 3.45 0)
+	(fp_line
+		(start -1.275 1.45)
+		(end 1.275 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7cb381eb-606a-4bd6-9b05-78ad9eb2a4ee")
+	)
+	(fp_arc
+		(start -1.275 1.45)
+		(mid -2.725 0)
+		(end -1.275 -1.45)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "8096e008-575e-482e-9db2-c15a8999775a")
+	)
+	(fp_arc
+		(start 1.275 -1.45)
+		(mid 2.725 0)
+		(end 1.275 1.45)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "22b439d1-9ef9-4f93-a4d3-c73e70d048a0")
+	)
+	(fp_line
+		(start -1.275 -1.45)
+		(end 1.275 -1.45)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "792ad080-71b4-4d5d-8a54-da90f341ce7d")
+		(uuid "3b230d8b-6eba-4b5d-93fa-cdd0f16cede7")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8c11b0c0-6371-43ee-838a-2f470c65b79b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
+	(fp_line
+		(start -1.275 1.45)
+		(end 1.275 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
 		)
+		(layer "F.CrtYd")
+		(uuid "b5c317bb-31e0-4da7-9009-fa8c8c35f59b")
+	)
+	(fp_arc
+		(start -1.275 1.45)
+		(mid -2.725 0)
+		(end -1.275 -1.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "720fbe07-7555-48e4-9b0b-3ff0345788af")
+	)
+	(fp_arc
+		(start 1.275 -1.45)
+		(mid 2.725 0)
+		(end 1.275 1.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c69cf80-6394-49fd-a954-f618e5e6830f")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 2 2)
 		(drill oval 5 2.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "fa055336-61f5-479c-bf43-b9204a2cfbf2")
 	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill oval 5 2.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "302c3567-7cd7-43c0-83ee-e6f402011b96")
+	)
+	(embedded_fonts no)
 )
