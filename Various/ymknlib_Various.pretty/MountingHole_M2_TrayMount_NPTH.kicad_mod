@@ -145,13 +145,6 @@
 		(size 2 2)
 		(drill oval 5 2.5)
 		(layers "*.Cu" "*.Mask")
-		(uuid "fa055336-61f5-479c-bf43-b9204a2cfbf2")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 2 2)
-		(drill oval 5 2.5)
-		(layers "*.Cu" "*.Mask")
 		(uuid "302c3567-7cd7-43c0-83ee-e6f402011b96")
 	)
 	(embedded_fonts no)
