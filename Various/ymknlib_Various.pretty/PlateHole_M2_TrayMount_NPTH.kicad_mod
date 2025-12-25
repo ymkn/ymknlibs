@@ -1,0 +1,151 @@
+(footprint "PlateHole_M2_TrayMount_NPTH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3")
+	(tags "mounting hole 3.2mm no annular m3")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6b2f9f3e-9c04-460e-ab7e-be9d66dfc170")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PlateHole_M2_TrayMount_NPTH"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9edf2490-9469-44a1-85c3-18e287f74a6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9bb0280-fec8-4834-8be7-82c2ac7ed76a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc9eb531-53bc-4288-bcde-264ceea0a963")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.775 -1.95)
+		(end 0.775 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a0d41dac-d7f8-4dcf-bcf0-3949eec4894b")
+	)
+	(fp_line
+		(start -0.775 1.95)
+		(end 0.775 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7cb381eb-606a-4bd6-9b05-78ad9eb2a4ee")
+	)
+	(fp_arc
+		(start -0.775 1.95)
+		(mid -2.725 0)
+		(end -0.775 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8096e008-575e-482e-9db2-c15a8999775a")
+	)
+	(fp_arc
+		(start 0.775 -1.95)
+		(mid 2.725 0)
+		(end 0.775 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "22b439d1-9ef9-4f93-a4d3-c73e70d048a0")
+	)
+	(fp_line
+		(start -0.775 -1.95)
+		(end 0.775 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b230d8b-6eba-4b5d-93fa-cdd0f16cede7")
+	)
+	(fp_line
+		(start -0.775 1.95)
+		(end 0.775 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5c317bb-31e0-4da7-9009-fa8c8c35f59b")
+	)
+	(fp_arc
+		(start -0.775 1.95)
+		(mid -2.725 0)
+		(end -0.775 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "720fbe07-7555-48e4-9b0b-3ff0345788af")
+	)
+	(fp_arc
+		(start 0.775 -1.95)
+		(mid 2.725 0)
+		(end 0.775 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c69cf80-6394-49fd-a954-f618e5e6830f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill oval 5 3.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "302c3567-7cd7-43c0-83ee-e6f402011b96")
+	)
+	(embedded_fonts no)
+)
