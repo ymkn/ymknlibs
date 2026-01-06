@@ -65,6 +65,19 @@ Footprints for Gateron Low-Profile 3.0 switches (containing "MX" in their names 
 |SW_MX_GLP3_1.75u|for 1.75u|
 |SW_MX_GLP3_1u|for 1u|
 
+### PCBFoam
+
+#### ymknlibs_PCBFoam
+
+Footprints for laser cutting PCB foams. Edge.Cuts layer shapes for protecting PCB components.
+
+##### Footprints
+
+|Name|Description|
+|---|---|
+|PCBFoam_ChocV2_Socket|Hole for Choc V2 switch socket (Kailh CPG135001S01)|
+|PCBFoam_D_SOD-123|Hole for SOD-123 diode|
+
 ### SwitchFoam
 
 #### ymknlib_SwitchFoam_MX
@@ -98,6 +111,21 @@ Footprints for laser cutting switch pads. Designed for MX switches.
 |SwitchPad_Stab_MX_3.0u|for 3.0u|
 |SwitchPad_Stab_MX_3.0u|for 7.0u|
 |SwitchPad_Stab_MX_ISO|for ISOEnter|
+
+### Various
+
+#### ymknlib_Various
+
+Various footprints for keyboard designs.
+
+##### Footprints
+
+|Name|Description|
+|---|---|
+|D_SOD-123|Diode, SOD-123 package|
+|MountingHole_M2_TrayMount|M2 mounting hole with plated through-hole for tray mount keyboards (PCB)|
+|MountingHole_M2_TrayMount_NPTH|M2 mounting hole with non-plated through-hole for tray mount keyboards (PCB)|
+|PlateHole_M2_TrayMount_NPTH|M2 mounting hole with non-plated through-hole for tray mount keyboards (switch plates)|
 
 ## License
 
