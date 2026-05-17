@@ -1,7 +1,7 @@
-(footprint "PlateHole_SW_MX_GLP3_1u"
-	(version 20240108)
+(footprint "PlateHole_SW_LP_1u"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PlateHole_SW_MX_GLP3_1u"
+	(property "Value" "PlateHole_SW_LP_1u"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "341e21f8-6163-4077-a9ac-02597e1f9607")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -73,7 +61,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "9b5c79e8-197e-4a82-9b53-d220566cd473")
 	)
@@ -179,6 +167,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -189,4 +181,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
