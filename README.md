@@ -44,7 +44,9 @@ Footprints for Kailh Choc V2 switches. Supports the 5-pin type (known for Lofree
 |SW_choc_v2_1.75u|for 1.75u keyswitches on PCB|
 |SW_choc_v2_1u|for 1u keyswitches on PCB|
 
-`Plate_MP_Choc_v2_1u` uses a 14.0 × 14.0 mm cutout (previously 14.2 × 14.0 mm). The decorative copper on `F.Cu` and `B.Cu` is 1.0 mm wide and set back 0.3 mm from the cutout edge, including the rounded corners. Matching 1.1 mm wide openings on `F.Mask` and `B.Mask` expose the copper with a 0.05 mm margin on each side. These dimensions apply to both the standard and 17 mm pitch libraries. Fit depends on the switch model, plate thickness, and manufacturing tolerances; check physical fit before production.
+`Plate_MP_Choc_v2_1u` uses a 14.0 × 14.0 mm cutout (previously 14.2 × 14.0 mm). The decorative copper on `F.Cu` and `B.Cu` is 0.8 mm wide and set back 0.5 mm from the cutout edge, including the rounded corners. Matching 0.9 mm wide openings on `F.Mask` and `B.Mask` expose the copper with a 0.05 mm margin on each side. These dimensions apply to both the standard and 17 mm pitch libraries. At 17 mm pitch, adjacent copper rings have a 0.4 mm gap; their mask openings have a 0.3 mm gap. Fit depends on the switch model, plate thickness, and manufacturing tolerances; check physical fit before production.
+
+The 0.5 mm copper setback follows the conservative hole clearance guidance in JLCPCB's [PCB design recommendations](https://jlcpcb.com/blog/how-to-avoid-pitfalls-in-pcb-design). Their [rigid PCB manufacturing capabilities](https://jlcpcb.com/capabilities/pcb-capabilities) list a lower manufacturing minimum of 0.2 mm for routed edges and slots; the 0.5 mm value here is a design choice, not a universal manufacturing minimum. This project's minimum copper-to-edge clearance is set to 0.5 mm. When using these footprints in another project, set its copper-to-edge clearance to at least 0.5 mm as well; library footprints do not transfer project DRC settings.
 
 #### ymknlib_Switch_ChocV2_17mm
 
@@ -84,6 +86,8 @@ Footprints for Gateron Low-Profile 3.0 switches (containing "MX" in their names 
 |SW_MX_GLP3_1.25u|for 1.25u|
 |SW_MX_GLP3_1.75u|for 1.75u|
 |SW_MX_GLP3_1u|for 1u|
+
+`PlateHole_PlateStab_MX_2u` includes rectangular `F.Cu` copper-pour keepouts extending at least 0.5 mm beyond each cutout. The cutout dimensions are unchanged. These keepouts apply only to front copper pours, not rear copper, tracks, vias, or pads; enforce their edge clearance with board-level DRC settings.
 
 ### PCBFoam
 
