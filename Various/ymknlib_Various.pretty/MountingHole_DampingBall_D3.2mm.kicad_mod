@@ -1,0 +1,74 @@
+(footprint "MountingHole_DampingBall_D3.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Damping ball mounting hole, 3.2mm NPTH; 3.0mm neck, 1.6mm neck height, 4.4mm upper/lower body diameter from DampingBall-Body.step")
+	(tags "mounting hole damping ball 3.2mm npth")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ab46a7ca-f42a-4b40-ab23-2a334386ba9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_DampingBall_D3.2mm"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b87df18-386e-46bd-a5bc-1bb47f3f1ae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "7db8a446-5a70-44eb-ac5c-719cccd5e0f7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2ce39ac5-7617-4df4-a19d-609b187c5ed9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "48a50fe8-78e6-46c6-8629-cd8712fb7e73")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "94df3dcd-f489-4ab1-90c9-ad0e105e7910")
+	)
+	(embedded_fonts no)
+)

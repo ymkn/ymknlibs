@@ -147,9 +147,12 @@ Various footprints for keyboard designs.
 |Name|Description|
 |---|---|
 |D_SOD-123|Diode, SOD-123 package|
+|MountingHole_DampingBall_D3.2mm|Damping ball mounting hole: 3.2 mm NPTH, 4.4 mm body outline on User.Comments, and 4.9 mm courtyards on both sides|
 |MountingHole_M2_TrayMount|M2 mounting hole with plated through-hole for tray mount keyboards (PCB)|
 |MountingHole_M2_TrayMount_NPTH|M2 mounting hole with non-plated through-hole for tray mount keyboards (PCB)|
 |PlateHole_M2_TrayMount_NPTH|M2 mounting hole with non-plated through-hole for tray mount keyboards (switch plates)|
+
+`MountingHole_DampingBall_D3.2mm` uses the same 3.2 mm hole diameter as KiCad's standard `MountingHole_3.2mm_M3`. The supplied `DampingBall-Body.step` has a 3.0 mm neck diameter, a 1.6 mm neck height, and 4.4 mm diameters for both the upper and lower bodies. Their coincident physical outlines are represented by a single circle on `Cmts.User` (User.Comments). Both `F.CrtYd` and `B.CrtYd` have a 4.9 mm diameter circle, allowing a 0.25 mm radial margin around the body for front- and back-side courtyard overlap checks. These outlines are not board cutouts or copper keepouts.
 
 ## License
 
