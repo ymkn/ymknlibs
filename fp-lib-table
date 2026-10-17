@@ -7,5 +7,6 @@
   (lib (name "ymknlib_Switch_ChocV2")(type "KiCad")(uri "${KIPRJMOD}/Switch/ymknlib_Switch_ChocV2.pretty")(options "")(descr ""))
   (lib (name "ymknlib_Switch_ChocV2_17mm")(type "KiCad")(uri "${KIPRJMOD}/Switch/ymknlib_Switch_ChocV2_17mm.pretty")(options "")(descr "17mm pitch positioning outlines for Kailh Choc V2 switches"))
   (lib (name "ymknlib_Switch_MX_GLP3")(type "KiCad")(uri "${KIPRJMOD}/Switch/ymknlib_Switch_MX_GLP3.pretty")(options "")(descr ""))
+  (lib (name "ymknlib_Switch_MX_GLP3_17mm")(type "KiCad")(uri "${KIPRJMOD}/Switch/ymknlib_Switch_MX_GLP3_17mm.pretty")(options "")(descr "17mm pitch positioning outlines for MX and Gateron Low Profile 3.0 switches"))
   (lib (name "ymknlibs_PCBFoam")(type "KiCad")(uri "${KIPRJMOD}/PCBFoam/ymknlibs_PCBFoam.pretty")(options "")(descr ""))
 )

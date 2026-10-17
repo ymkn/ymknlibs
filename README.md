@@ -90,6 +90,25 @@ Footprints for Gateron Low-Profile 3.0 switches (containing "MX" in their names 
 
 `PlateHole_PlateStab_MX_2u` includes rectangular `F.Cu` copper-pour keepouts extending at least 0.5 mm beyond each cutout. The cutout dimensions are unchanged. These keepouts apply only to front copper pours, not rear copper, tracks, vias, or pads; enforce their edge clearance with board-level DRC settings.
 
+#### ymknlib_Switch_MX_GLP3_17mm
+
+17 mm pitch variants of all fourteen footprints in `ymknlib_Switch_MX_GLP3`, with the same footprint names. Compared with the standard library, only the positioning outlines on `Dwgs.User` / User.Drawings differ, using 1u = 17 mm:
+
+|Key size|Positioning outline (width × height)|
+|---|---|
+|1u|17 × 17 mm|
+|1.25u|21.25 × 17 mm|
+|1.5u|25.5 × 17 mm|
+|1.75u|29.75 × 17 mm|
+|2u|34 × 17 mm|
+|2.25u|38.25 × 17 mm|
+|2.75u|46.75 × 17 mm|
+|ISO Enter|25.5 × 34 mm overall L-shaped outline; 21.25 mm wide lower half|
+
+Pads, holes, cutouts, copper-pour keepouts, courtyards, 3D models, and stabilizer spacing match the standard library. The ISO Enter outline retains its original origin and orientation; its 14 mm switch corner marks are unchanged. These outlines are positioning guides, not a guarantee of switch, keycap, or stabilizer clearance at 17 mm pitch. The switch socket pads and some stabilizer cutouts and keepouts extend beyond the positioning outlines, so check adjacent keys and allow additional clearance near board and enclosure edges.
+
+The library is registered in this project's `fp-lib-table`. To use it in another project, add `Switch/ymknlib_Switch_MX_GLP3_17mm.pretty` to that project's footprint library table or to the global table. Already placed footprints are not automatically switched to this library.
+
 ### PCBFoam
 
 #### ymknlibs_PCBFoam
