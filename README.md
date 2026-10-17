@@ -45,13 +45,17 @@ Footprints for Kailh Choc V2 switches. Supports the 5-pin type (known for Lofree
 |SW_choc_v2_1.75u|for 1.75u keyswitches on PCB|
 |SW_choc_v2_1u|for 1u keyswitches on PCB|
 
+The four `SW_choc_v2_*` switch footprints also have additive `_MXAligned` variants (for example, `SW_choc_v2_1u_MXAligned`). Compared with the original Choc V2 footprints, all socket pads, contact holes, socket outlines, and the 3D model are rotated 180 degrees about the switch center, and pad numbers 1 and 2 are exchanged. Viewed from `F.Cu` at footprint rotation 0 degrees, the socket is on the negative-Y side, pad 1 is on the right, and pad 2 is on the left, following the left/right numbering of `SW_MX_GLP3_*`. The center hole, pad sizes, drills, copper/mask/paste layers, and positioning outlines are unchanged. The existing footprints retain their original orientation and numbering.
+
+These variants simplify exchanging footprints in a PCB design; they are not combined MX/Choc footprints and do not make the two sockets physically interchangeable on an already manufactured PCB. Contact-hole and solder-pad positions still differ from MX/GLP, so tracks must be adjusted and clearances rechecked. Keep the same footprint center, rotation, and board side when replacing an MX/GLP footprint with an `_MXAligned` Choc V2 footprint. Replacing an original Choc V2 footprint with this variant also moves the contacts and exchanges their numbers; review the pad-to-net mapping and reroute as needed. The Choc V2 plate and stabilizer footprints are unchanged.
+
 `Plate_MP_Choc_v2_1u` uses a 14.0 × 14.0 mm cutout (previously 14.2 × 14.0 mm). The decorative copper on `F.Cu` and `B.Cu` is 0.8 mm wide and set back 0.5 mm from the cutout edge, including the rounded corners. Matching 0.9 mm wide openings on `F.Mask` and `B.Mask` expose the copper with a 0.05 mm margin on each side. These dimensions apply to both the standard and 17 mm pitch libraries. At 17 mm pitch, adjacent copper rings have a 0.4 mm gap; their mask openings have a 0.3 mm gap. Fit depends on the switch model, plate thickness, and manufacturing tolerances; check physical fit before production.
 
 The 0.5 mm copper setback follows the conservative hole clearance guidance in JLCPCB's [PCB design recommendations](https://jlcpcb.com/blog/how-to-avoid-pitfalls-in-pcb-design). Their [rigid PCB manufacturing capabilities](https://jlcpcb.com/capabilities/pcb-capabilities) list a lower manufacturing minimum of 0.2 mm for routed edges and slots; the 0.5 mm value here is a design choice, not a universal manufacturing minimum. This project's minimum copper-to-edge clearance is set to 0.5 mm. When using these footprints in another project, set its copper-to-edge clearance to at least 0.5 mm as well; library footprints do not transfer project DRC settings.
 
 #### ymknlib_Switch_ChocV2_17mm
 
-17 mm pitch variants of all eight footprints in `ymknlib_Switch_ChocV2`, with the same footprint names. Compared with the standard library, only the positioning outlines differ, using 1u = 17 mm:
+17 mm pitch variants of all twelve footprints in `ymknlib_Switch_ChocV2`, including the four `_MXAligned` switch variants, with the same footprint names. Compared with the standard library, only the positioning outlines differ, using 1u = 17 mm:
 
 |Key size|Positioning outline (width × height)|
 |---|---|
