@@ -37,6 +37,7 @@ Footprints for Kailh Choc V2 switches. Supports the 5-pin type (known for Lofree
 |Name|Description|
 |---|---|
 |Plate_MP_Choc_v2_1u|Switch plate cutout (14.0 × 14.0 mm, R0.5 corners) with decorative copper on both sides|
+|Plate_MP_Choc_v2_1u_NoCopper|Same switch plate cutout without decorative copper or solder mask openings|
 |STAB_choc_2u_Plate|for stabilizers on switchplate|
 |STAB_choc_2u|for stablizers on PCB |
 |SW_choc_v2_1.5u|for 1.5u keyswitches on PCB|
@@ -50,7 +51,7 @@ The 0.5 mm copper setback follows the conservative hole clearance guidance in JL
 
 #### ymknlib_Switch_ChocV2_17mm
 
-17 mm pitch variants of all seven footprints in `ymknlib_Switch_ChocV2`, with the same footprint names. Compared with the standard library, only the positioning outlines differ, using 1u = 17 mm:
+17 mm pitch variants of all eight footprints in `ymknlib_Switch_ChocV2`, with the same footprint names. Compared with the standard library, only the positioning outlines differ, using 1u = 17 mm:
 
 |Key size|Positioning outline (width × height)|
 |---|---|
@@ -60,7 +61,7 @@ The 0.5 mm copper setback follows the conservative hole clearance guidance in JL
 |1.75u|29.75 × 17 mm|
 |2u|34 × 17 mm|
 
-The outlines retain their original layers (`Dwgs.User` / User.Drawings for `Plate_MP_Choc_v2_1u`, `Eco1.User` / User.Eco1 for the others). Pads, holes, cutouts, decorative copper, and stabilizer spacing match the standard library. These outlines are positioning guides, not a guarantee of switch or keycap clearance at 17 mm pitch. The switch socket pads extend beyond the 1u outline, so allow additional clearance near board and enclosure edges.
+The outlines retain their original layers (`Dwgs.User` / User.Drawings for `Plate_MP_Choc_v2_1u` and `Plate_MP_Choc_v2_1u_NoCopper`, `Eco1.User` / User.Eco1 for the others). Pads, holes, cutouts, decorative copper, and stabilizer spacing match the standard library. These outlines are positioning guides, not a guarantee of switch or keycap clearance at 17 mm pitch. The switch socket pads extend beyond the 1u outline, so allow additional clearance near board and enclosure edges.
 
 The library is registered in this project's `fp-lib-table`. To use it in another project, add `Switch/ymknlib_Switch_ChocV2_17mm.pretty` to that project's footprint library table or to the global table. Already placed footprints must be updated from the library to receive these changes.
 
