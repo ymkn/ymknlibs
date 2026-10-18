@@ -8,8 +8,10 @@ KiCAD symbol and footprint libraries for my keyboard designs.
 `ymknlib_Various:USB_C_Receptacle_HRO_TYPE-C-31-M-12` is a copy of KiCad's
 stock HRO footprint with the `USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal`
 3D model assigned, because KiCad ships no model for the HRO part. The pads and
-outline are unchanged; only the model reference differs. The substitute was
-verified against a user's assembled design.
+outline are unchanged; only the model reference and descriptive text differ.
+The substitute was used in a user's CAD inspection; physical HRO/GCT interchangeability
+has not been established. This copied footprint remains under KiCad's CC-BY-SA-4.0
+library license with its electronic-design exception; see `licenses/NOTICE-KiCad.md`.
 
 ## Bundled 3D models and model paths
 
