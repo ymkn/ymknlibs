@@ -570,7 +570,7 @@
 		(remove_unused_layers no)
 		(uuid "03df3f90-cdde-4bc1-a1e5-c1ca9278797f")
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG151101S11_MX.step"
+	(model "${KIPRJMOD}/../lib/external/ymknlibs/Switch/3dmodels/HS_CPG151101S11_MX.step"
 		(offset
 			(xyz -4.82 6.74 1.82)
 		)

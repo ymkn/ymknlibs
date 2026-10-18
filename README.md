@@ -2,6 +2,35 @@
 
 KiCAD symbol and footprint libraries for my keyboard designs.
 
+
+### USB-C connector copy
+
+`ymknlib_Various:USB_C_Receptacle_HRO_TYPE-C-31-M-12` is a copy of KiCad's
+stock HRO footprint with the `USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal`
+3D model assigned, because KiCad ships no model for the HRO part. The pads and
+outline are unchanged; only the model reference differs. The substitute was
+verified against a user's assembled design.
+
+## Bundled 3D models and model paths
+
+The Choc V2 and MX/GLP3 switch footprints reference socket models stored in
+`Switch/3dmodels/` using `${KIPRJMOD}/../lib/external/ymknlibs/Switch/3dmodels/...`.
+They resolve in any project that keeps this repository at
+`KiCAD/lib/external/ymknlibs`, which is how generator projects pin it. In other
+layouts the 3D reference stays unresolved; the 2D footprint is unaffected.
+
+- `HS_CPG135001S30_Choc.step`, `HS_CPG151101S11_MX.step` — from
+  [ebastler/marbastlib](https://github.com/ebastler/marbastlib) commit
+  `6b0a9a73f579e377816d60b58eac2b3252de7868`, licensed CERN-OHL-P 2.0
+  (see `licenses/marbastlib-LICENSE.txt`). Notices are retained as required.
+- `Various/3dmodels/DampingBall-Body.step` — user-provided simplified
+  reference body (4.4 mm body diameter, 3.0 mm neck, 6.6 mm tall, origin on
+  the bottom axis). The central through-hole is not modeled. The footprint
+  places it with a -4.6 mm Z offset, which assumes a 1.6 mm board and the
+  nominal 3 mm lower contact; adjust per design if those differ.
+- Other footprints keep KiCad's stock model references (`Diode_SMD` etc.)
+  using KiCad 10's `${KICAD10_3DMODEL_DIR}` and its shipped `.step` models.
+
 ## Collections
 
 ### MCU

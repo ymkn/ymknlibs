@@ -71,4 +71,10 @@
 		(uuid "94df3dcd-f489-4ab1-90c9-ad0e105e7910")
 	)
 	(embedded_fonts no)
+
+  (model "${KIPRJMOD}/../lib/external/ymknlibs/Various/3dmodels/DampingBall-Body.step"
+    (offset (xyz 0 0 -4.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

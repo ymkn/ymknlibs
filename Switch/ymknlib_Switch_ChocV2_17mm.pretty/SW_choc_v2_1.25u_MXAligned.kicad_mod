@@ -614,7 +614,7 @@
 		(remove_unused_layers no)
 		(uuid "1abb673c-f6a1-5ac6-b875-242ee93460be")
 	)
-	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
+	(model "${KIPRJMOD}/../lib/external/ymknlibs/Switch/3dmodels/HS_CPG135001S30_Choc.step"
 		(offset
 			(xyz 5 3.75 0)
 		)
