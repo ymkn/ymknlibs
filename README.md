@@ -206,6 +206,12 @@ Various footprints for keyboard designs.
 |MountingHole_M2_TrayMount|M2 mounting hole with plated through-hole for tray mount keyboards (PCB)|
 |MountingHole_M2_TrayMount_NPTH|M2 mounting hole with non-plated through-hole for tray mount keyboards (PCB)|
 |PlateHole_M2_TrayMount_NPTH|M2 mounting hole with non-plated through-hole for tray mount keyboards (switch plates)|
+|SWD_1x03_PlatedHoles_P2.54mm_D1.0mm|Three bare plated debug holes: 2.54 mm pitch, 1.0 mm drills, 1.7 mm pads; 1=SWCLK, 2=GND, 3=SWDIO|
+|SMTSO2010CTJ_C2916319_PROVISIONAL|Provisional M2 surface-mount nut footprint; 3.8 mm NPTH locator and four SMT quadrants; not assembler-approved|
+
+`SWD_1x03_PlatedHoles_P2.54mm_D1.0mm` has no connector body or 3D model and is excluded from BOM and placement output. Check the stated pin order against the target circuit; it is not a standardized SWD connector pinout.
+
+`SMTSO2010CTJ_C2916319_PROVISIONAL` and its simplified nominal model in `Various/3dmodels/SMTSO2010CTJ-nominal.step` were moved from GS2 without changing their geometry. The model path assumes the repository layout described above. The footprint remains `board_only` and provisional: pad geometry, solder-joint strength, paste design and assembly compatibility require review. Its presence in this library is not production approval. Sources and limitations are recorded in `licenses/NOTICE-SMTSO2010CTJ.md`.
 
 `MountingHole_DampingBall_D3.2mm` uses the same 3.2 mm hole diameter as KiCad's standard `MountingHole_3.2mm_M3`. The supplied `DampingBall-Body.step` has a 3.0 mm neck diameter, a 1.6 mm neck height, and 4.4 mm diameters for both the upper and lower bodies. Their coincident physical outlines are represented by a single circle on `Cmts.User` (User.Comments). Both `F.CrtYd` and `B.CrtYd` have a 4.9 mm diameter circle, allowing a 0.25 mm radial margin around the body for front- and back-side courtyard overlap checks. These outlines are not board cutouts or copper keepouts.
 
