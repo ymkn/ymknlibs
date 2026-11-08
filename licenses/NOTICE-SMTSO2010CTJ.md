@@ -13,12 +13,12 @@ Copyright and related rights in the official library belong to JLCEDA/EasyEDA. I
 
 The footprint keeps the `PROVISIONAL` suffix and `board_only` attribute. It is not assembler-approved. Assembly-process suitability, paste design, solder-joint strength, tolerances and actual component fit remain unverified. The geometry must be reviewed before use in any project; do not treat library inclusion as a manufacturing qualification.
 
-## Update 2026-11-08
+## Verification note 2026-11-08
 
-The STEP model was redrawn to the manufacturer's datasheet dimensions
-(SINHOO SMTSO2010CTJ, LCSC C2916319): solder flange Ø7.14 × 1.53 plus
-boss Ø5.56 × 1.0 (2.53 total below the PCB back face), replacing the
-earlier Ø5.56 / Ø3.6-ring envelope. The coordinate convention is
-unchanged (boss at z 0..+1.0, flange at z −1.53..0, Ø2.0 hole). It
-remains a dimensional reference envelope, not a certified manufacturer
-model, and the footprint keeps its `PROVISIONAL` status.
+The model was checked against the manufacturer drawing (SINHOO
+SMTSO2010CTJ, Rev.A, 2017-05-26, "M2*5.56*L1.0+1.53", based on
+PEMSMTSO): barrel Ø5.56 × 1.0 plus a Ø3.60 × 1.53 pilot that enters
+the PCB hole. The original envelope above matches the drawing; only
+the barrel protrudes below the PCB back face. (A revision replacing
+the pilot with a Ø7.14 flange — a dimension from the SMTSO3640CTJ
+drawing, a different part — was pushed and reverted the same day.)
